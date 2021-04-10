@@ -61,6 +61,10 @@ public class LoadScene1 : MonoBehaviour
         float closestDistance = -1;
         foreach (GameObject enemy in enemies)
         {
+            if (!enemy)
+            {
+                continue;
+            }
             Rigidbody2D body1 = enemy.GetComponent<Rigidbody2D>();
             Rigidbody2D body2 = nommer.GetComponent<Rigidbody2D>();
             float distance = Vector2.Distance(body1.position, body2.position);
@@ -90,10 +94,5 @@ public class LoadScene1 : MonoBehaviour
             difference *= -1;
         }
         body1.MovePosition(body1.position + difference);
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        Destroy(collision.gameObject);
     }
 }
