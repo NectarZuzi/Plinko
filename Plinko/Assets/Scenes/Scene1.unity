@@ -158,8 +158,8 @@ MonoBehaviour:
   dropBall: {fileID: 309958101847850334, guid: a9bbc25aaf383f34cb3ee338eecbae05, type: 3}
   enemyObject: {fileID: 9218309811865903408, guid: 40e23b139799b614ea672c6f62f6be37, type: 3}
   nommerObject: {fileID: 3248338840438884537, guid: 61688c9d375d9e24c992ed0e0c4f2129, type: 3}
-  height: 2
-  width: 2
+  height: 10
+  width: 10
 --- !u!81 &17211650
 AudioListener:
   m_ObjectHideFlags: 0

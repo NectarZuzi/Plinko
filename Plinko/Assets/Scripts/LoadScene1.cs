@@ -75,7 +75,7 @@ public class LoadScene1 : MonoBehaviour
             }
             if (distance < 5)
             {
-                moveRelativeToObject(body1, body2, 25, false);
+                //moveRelativeToObject(body1, body2, 25, false);
             }
         }
         if (!closestBody)
