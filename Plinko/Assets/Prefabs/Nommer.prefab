@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 303023309365511487}
   - component: {fileID: 551206987595739175}
   - component: {fileID: 933632405544471421}
+  - component: {fileID: 2653721446472615518}
+  - component: {fileID: -8752268977851167331}
   m_Layer: 0
   m_Name: Nommer
   m_TagString: Untagged
@@ -134,3 +136,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5d158db9dac524c9c0c028172e2cdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2653721446472615518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3248338840438884537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7dd7fc37e14c4246a3b50f6186a5596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 200
+  nextWaypointDistance: 1
+--- !u!114 &-8752268977851167331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3248338840438884537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
